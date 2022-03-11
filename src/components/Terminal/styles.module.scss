@@ -1,0 +1,35 @@
+.terminal {
+    width: 550px;
+    height: 250px;
+    box-shadow: 5px 5px 26px 5px rgba(0,0,0,0.2); 
+    background: #000101;
+    border-radius: 15px;
+    border: 1px #8485843d solid;
+    margin-bottom: 50px;
+
+    
+    .header {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .content {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Source Code Pro', monospace;
+        cursor: text;
+        height: 80%;
+        overflow-y: scroll;
+        
+        *::selection {
+            background-color: #848584;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+}

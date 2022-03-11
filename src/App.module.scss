@@ -1,0 +1,36 @@
+.wrapper {
+    .center {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .highlighter {
+        border: 1px #8485843d solid;
+        box-shadow: 5px 5px 26px 5px rgba(0, 0, 0, 0.2);
+        background: #000101;
+        border-radius: 15px;
+        margin-bottom: 30px;
+
+        .header {
+            display: flex;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            margin-left: 20px;
+        margin-right: 20px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .snippetImg {
+        height: 300px;
+    }
+}

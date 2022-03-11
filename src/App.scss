@@ -1,0 +1,22 @@
+body {
+    background-color: #121214;
+    color: #dedede;
+    font-family: 'Raleway', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9264f5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7b54cf;
+}
