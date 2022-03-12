@@ -8,7 +8,7 @@ import { TerminalComponent } from './components/Terminal';
 
 function App() {
     const codeString =
-        "import pedrinfx from 'pedrinfx';\n\nconst name = pedrinfx.name;\nconst age = pedrinfx.age;\nconst skills = pedrinfx.skills;\n\nconsole.log(`pedrinfx's name: ${name}`)\nconsole.log(`pedrinfx's age: ${age}`)\nconsole.log(`pedrinfx's skills: ${skills}`)\n\nconsole.log(`${name} is current learning: ${pedrinfx.getCurrentLearning()}`)";
+        "import pedrinfx from 'pedrinfx';\n\nconst name = pedrinfx.name;\nconst age = pedrinfx.age;\nconst skills = pedrinfx.skills;\n\nconsole.log(`pedrinfx's name: ${name}`);\nconsole.log(`pedrinfx's age: ${age}`);\nconsole.log(`pedrinfx's skills: ${skills}`);\n\nconsole.log(`${name} is current learning: ${pedrinfx.getCurrentLearning()}`);";
 
     return (
         <div className={styles.wrapper}>
