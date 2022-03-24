@@ -36,31 +36,50 @@ function App() {
                     <div className={styles.header}>
                         <div
                             style={{
-                                background: '#E96379',
-                                width: 12,
-                                height: 12,
-                                borderRadius: 99,
-                                marginRight: 5,
+                                display: 'flex',
+                                flexDirection: 'row',
+                                alignItems: 'center',
                             }}
-                        />
+                        >
+                            <div
+                                style={{
+                                    background: '#E96379',
+                                    width: 12,
+                                    height: 12,
+                                    borderRadius: 99,
+                                    marginRight: 5,
+                                }}
+                            />
+                            <div
+                                style={{
+                                    background: '#E7DE79',
+                                    width: 12,
+                                    height: 12,
+                                    borderRadius: 99,
+                                    marginRight: 5,
+                                }}
+                            />
+                            <div
+                                style={{
+                                    background: '#67E480',
+                                    width: 12,
+                                    height: 12,
+                                    borderRadius: 99,
+                                    marginRight: 5,
+                                }}
+                            />
+                        </div>
+
                         <div
                             style={{
-                                background: '#E7DE79',
-                                width: 12,
-                                height: 12,
-                                borderRadius: 99,
-                                marginRight: 5,
+                                textAlign: 'center',
+                                width: '85%',
+                                opacity: 0.5,
+                                fontSize: 12,
                             }}
-                        />
-                        <div
-                            style={{
-                                background: '#67E480',
-                                width: 12,
-                                height: 12,
-                                borderRadius: 99,
-                                marginRight: 5,
-                            }}
-                        />
+                        >
+                            index.js
+                        </div>
                     </div>
                     <div className={styles.content}>
                         <SyntaxHighlighter

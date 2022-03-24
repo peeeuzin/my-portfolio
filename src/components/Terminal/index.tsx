@@ -72,7 +72,7 @@ function TerminalComponent() {
         writeLine(
             "pedrinfx's skills: ['Typescript/Javascript', 'CSS', 'HTML', 'Elixir', 'C#', 'Node.js', 'Jest', 'Next.js', 'React']"
         );
-        writeLine("pedrinfx's is current learning: C/C++");
+        writeLine("pedrinfx's is current learning: Rust");
 
         await bashIcon();
     };
