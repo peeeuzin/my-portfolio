@@ -70,9 +70,9 @@ function TerminalComponent() {
             `pedrinfx's age: ${Math.abs(ageDate.getUTCFullYear() - 1970)}`
         );
         writeLine(
-            "pedrinfx's skills: ['Typescript/Javascript', 'CSS', 'HTML', 'Elixir', 'C#', 'Node.js', 'Jest', 'Next.js', 'React']"
+            "pedrinfx's skills: ['Typescript/Javascript', 'CSS', 'HTML', 'Sass', 'Elixir', 'C#', 'Node.js', 'React', 'Rust']"
         );
-        writeLine("pedrinfx's is current learning: Rust");
+        writeLine("pedrinfx's is current learning: Zig");
 
         await bashIcon();
     };
