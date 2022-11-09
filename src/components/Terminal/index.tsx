@@ -38,7 +38,7 @@ function TerminalComponent() {
 
         await bashIcon();
 
-        const commands = ['npm install pedrinfx --save', 'node index.js'];
+        const commands = ['npm install peeeuzin --save', 'node index.js'];
 
         for (let i = 0; i < commands.length; i++) {
             const command = commands[i];
@@ -65,14 +65,14 @@ function TerminalComponent() {
         const ageDifMs = Date.now() - new Date('08/18/2006').getTime();
         const ageDate = new Date(ageDifMs);
 
-        writeLine("pedrinfx's name: Pedro Augusto");
+        writeLine("peeeuzin's name: Pedro Augusto");
         writeLine(
-            `pedrinfx's age: ${Math.abs(ageDate.getUTCFullYear() - 1970)}`
+            `peeeuzin's age: ${Math.abs(ageDate.getUTCFullYear() - 1970)}`
         );
         writeLine(
-            "pedrinfx's skills: ['Typescript/Javascript', 'CSS', 'HTML', 'Sass', 'Elixir', 'C#', 'Node.js', 'React', 'Rust']"
+            "peeeuzin's skills: ['Typescript/Javascript', 'CSS', 'HTML', 'Sass', 'Elixir', 'C#', 'Node.js', 'React', 'Rust']"
         );
-        writeLine("pedrinfx's is current learning: Zig");
+        writeLine('peeeuzin is current learning: Zig');
 
         await bashIcon();
     };

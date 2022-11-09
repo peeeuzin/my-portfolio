@@ -9,18 +9,16 @@ import { TerminalComponent } from './components/Terminal';
 
 function App() {
     const codeString = `
-import pedrinfx from 'pedrinfx';
+import { name, age, skills, getCurrentLearning } from 'peeeuzin';
 
-const { name, age, skills } = pedrinfx;
+console.log(\`peeeuzin's name: \${name}\`);
+console.log(\`peeeuzin's age: \${age}\`);
+console.log(\`peeeuzin's skills: \${skills}\`);
 
-console.log(\`pedrinfx's name: \${name}\`);
-console.log(\`pedrinfx's age: \${age}\`);
-console.log(\`pedrinfx's skills: \${skills}\`);
-
-console.log(\`\${name} is current learning: \${pedrinfx.getCurrentLearning()}\`);
+console.log(\`\${name} is current learning: \${getCurrentLearning()}\`);
 `;
 
-    const myGithub = 'https://github.com/pedrinfx';
+    const myGithub = 'https://github.com/peeeuzin';
 
     return (
         <div className={styles.wrapper}>
